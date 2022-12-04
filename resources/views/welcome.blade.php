@@ -135,13 +135,10 @@
                 <hr>
                 <section class="container text-center">
                     <div class="display-6 mb-5">Thank you!</div>
-                    <p class="text-md-start">Welcome and thank you for visiting my page!<br>Today i work at a
-                        office,
-                        administrating a big local store,
-                        but i've always been fascinated with technology and programing,
-                        and that is what i do on my free time, i code!<br>
-                        I'm currently looking for an oportunity to transition carreer,
-                        feel free to contact me also at: <a href="">mauro.henrique613@gmail.com</a>
+                    <p class="text-md-start">Welcome and thank you for visiting my page!<br>
+                        I've always been fascinated with technology and programing,
+                        and that is what i do, i code!<br>
+                        Feel free to contact me also at: <a href="">mauro.henrique613@gmail.com</a>
                     </p>
                     <p class="text-start">Also, please check out my <a href="">Portfolio!</a></p>
                     <p>Have a nice day :)</p>
