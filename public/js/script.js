@@ -1,8 +1,9 @@
-const vh = window.innerHeight;
+const height = document.querySelector('#first-row').clientHeight + document.querySelector('#navbarwrp').clientHeight;
+alert(height)
 
 const scrollerDown = function () {
     window.scrollTo({
-        top: vh,
+        top: height,
         left: 0,
         behavior: 'smooth'
     });

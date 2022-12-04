@@ -39,65 +39,64 @@
             }
         }
     </style>
-    <div class="vh">
-        <nav class="navbar navbar-expand-lg bg-light" id="navbarwrp">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">Mauro Henrique</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active px-1 text-center" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active px-1 text-center" href="/projects">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active px-1 text-center" href="/aboutme">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active px-1 text-center" href="/contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+
+    <nav class="navbar navbar-expand-lg bg-light" id="navbarwrp">
         <div class="container-fluid">
-            <div class="row" id="first-row">
-                <div class="col-12">
-                    <section class="container text-center">
-                        <div class="display-6">Hi! i'm</div>
-                        <div class="display-2 mb-2">Mauro Henrique</div>
-                        <div class="display-6">Front-end Developer</div>
-                    </section>
-                    <section class="container mt-5 text-center">
-                        <button class="btn btn-outline-primary"> View<br>Portfolio<br></button>
-                        <button class="btn btn-primary"> Download<br>Resume</button>
-                    </section>
-                </div>
-                <div class="col-12">
-                    <section class="container text-center mt-5">
-                        <div class="display-5">About me</div>
-                        <div class="lead mt-3">Hello, i'm a front-end developer from Fortaleza, Brazil currently
-                            studying System's Analysis and Development.
+            <a class="navbar-brand" href="/">Mauro Henrique</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active px-1 text-center" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active px-1 text-center" href="/projects">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active px-1 text-center" href="/aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active px-1 text-center" href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="first-row">
+        <div class="row">
+            <div class="col-12">
+                <section class="container text-center">
+                    <div class="display-6">Hi! i'm</div>
+                    <div class="display-2 mb-2">Mauro Henrique</div>
+                    <div class="display-6">Front-end Developer</div>
+                </section>
+                <section class="container mt-5 text-center">
+                    <button class="btn btn-outline-primary"> View<br>Portfolio<br></button>
+                    <button class="btn btn-primary"> Download<br>Resume</button>
+                </section>
+            </div>
+            <div class="col-12">
+                <section class="container text-center mt-5">
+                    <div class="display-5">About me</div>
+                    <div class="lead mt-3">Hello, i'm a front-end developer from Fortaleza, Brazil currently
+                        studying System's Analysis and Development.
+                    </div>
+                </section>
+                <section class="container mt-5 mb-5">
+                    <button id="scroll-btn" onclick="scrollerDown()" class="scroll-container">
+                        <div class="field">
+                            <div class="scroll"></div>
                         </div>
-                    </section>
-                    <section class="container mt-5 mb-1">
-                        <button id="scroll-btn" onclick="scrollerDown()" class="scroll-container">
-                            <div class="field">
-                                <div class="scroll"></div>
-                            </div>
-                        </button>
-                    </section>
-                </div>
+                    </button>
+                </section>
             </div>
         </div>
     </div>
-    <div class="vh">
+    <div class="container-fluid">
         <div class="row mt-2 text-center">
             <div class="col-md-6">
                 <div class="display-6">Overall View</div>
