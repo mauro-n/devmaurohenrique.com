@@ -1,5 +1,5 @@
 const height = document.querySelector('#first-row').clientHeight + document.querySelector('#navbarwrp').clientHeight;
-alert(height)
+
 
 const scrollerDown = function () {
     window.scrollTo({

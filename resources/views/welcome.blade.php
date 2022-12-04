@@ -86,7 +86,8 @@
                         studying System's Analysis and Development.
                     </div>
                 </section>
-                <section class="container mt-5 mb-5">
+                <hr class="mt-5 mb-4">
+                <section class="container mb-5 d-none d-md-block">
                     <button id="scroll-btn" onclick="scrollerDown()" class="scroll-container">
                         <div class="field">
                             <div class="scroll"></div>
