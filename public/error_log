@@ -1,0 +1,5 @@
+[03-Dec-2022 22:28:02 America/Fortaleza] PHP Warning:  require(/home2/devmau07/devmaurohenrique.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/devmau07/devmaurohenrique.com/public/index.php on line 34
+[03-Dec-2022 22:28:02 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/devmau07/devmaurohenrique.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/devmau07/devmaurohenrique.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/devmau07/devmaurohenrique.com/public/index.php on line 34
