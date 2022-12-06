@@ -159,3 +159,17 @@
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
 }
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#first-row {
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    #navbarSupportedContent li a {
+        border: 1px solid rgba(128, 128, 128, 0.13);
+    }
+}
