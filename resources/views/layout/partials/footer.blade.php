@@ -1,7 +1,7 @@
 @section('foot')
 <section>
     <div class="container-fluid bg-danger text-light text-center">
-        <div>this page is banana a work in progress, some functionalities may be unavailable</div>
+        <div>This page is bananas! Work in progress, some functionalities may be unavailable</div>
     </div>
 </section>
 

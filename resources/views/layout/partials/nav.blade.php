@@ -12,7 +12,7 @@
                     <a class="nav-link active px-1 text-center" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active px-1 text-center" href="/projects">Portfolio</a>
+                    <a class="nav-link active px-1 text-center" href="/portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active px-1 text-center" href="/aboutme">About Me</a>
