@@ -12,7 +12,7 @@
                 <div class="display-6">Front-end Developer</div>
             </section>
             <section class="container mt-5 text-center">
-                <button class="btn btn-outline-primary"> View<br>Portfolio<br></button>
+                <a href="/portfolio" class="btn btn-outline-primary"> View<br>Portfolio<br></a>
                 <button class="btn btn-primary"> Download<br>Resume</button>
             </section>
         </div>
@@ -78,7 +78,7 @@
                     and that is what i do, i code!<br>
                     Feel free to contact me also at: <a href="">mauro.henrique613@gmail.com</a>
                 </p>
-                <p class="text-start">Also, please check out my <a href="">Portfolio!</a></p>
+                <p class="text-start">Also, please check out my <a href="/portfolio">Portfolio!</a></p>
                 <p>Have a nice day :)</p>
                 <button class="btn btn-outline-secondary mt-2" onclick="scrollerTop()">Back to the top</button>
             </section>
