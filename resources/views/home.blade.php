@@ -60,7 +60,7 @@
                     <li class="icon twitter">
                         <span class="tooltip">LinkedIn</span>
                         <span><i class="fab fa-twitter"></i></span>
-                        <a href='www.devmaurohenrique.com'><img src="images/linkedin-app-icon.png" class="icon" alt=""></a>
+                        <a href='https://www.devmaurohenrique.com'><img src="images/linkedin-app-icon.png" class="icon" alt=""></a>
                     </li>
                     <li class="icon github">
                         <span class="tooltip">Github</span>
