@@ -60,12 +60,12 @@
                     <li class="icon twitter">
                         <span class="tooltip">LinkedIn</span>
                         <span><i class="fab fa-twitter"></i></span>
-                        <a href='https://www.devmaurohenrique.com'><img src="images/linkedin-app-icon.png" class="icon" alt=""></a>
+                        <a href='https://www.linkedin.com/in/mauro-henrique-5a2b08b6/'><img src="images/linkedin-app-icon.png" class="icon" alt=""></a>
                     </li>
                     <li class="icon github">
                         <span class="tooltip">Github</span>
                         <span><i class="fab fa-github"></i></span>
-                        <img src="images/github-icon.png" class="icon" alt="">
+                        <a href="https://github.com/mauro-n"><img src="images/github-icon.png" class="icon" alt=""></a>                        
                     </li>
                 </ul>
             </section>
