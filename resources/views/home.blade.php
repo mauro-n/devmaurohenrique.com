@@ -49,6 +49,8 @@
                 <span class="col-5 col-sm-3 badge _color-bege border text-dark m-2 p-2">DJANGO</span>
                 <span class="col-5 col-sm-3 badge _color-bege border text-dark m-2 p-2">MONGO DB</span>
                 <span class="col-5 col-sm-3 badge _color-bege border text-dark m-2 p-2">BOOTSTRAP</span>
+                <span class="col-5 col-sm-3 badge _color-bege border text-dark m-2 p-2">PHP</span>
+                <span class="col-5 col-sm-3 badge _color-bege border text-dark m-2 p-2">LARAVEL</span>
             </div>
         </div>
         <hr class="d-md-none">
