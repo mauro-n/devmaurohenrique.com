@@ -10,10 +10,6 @@ class eventController extends Controller
         return view('home');
     }
 
-    public function portfolio() {
-        return view('portfolio');
-    }
-
     public function aboutme() {
         return view('aboutme');
     }

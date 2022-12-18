@@ -14,9 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 use App\Http\Controllers\eventController;
+use App\Http\Controllers\projectController;
 
 Route::get('/', [eventController::class, 'index']);
-Route::get('/portfolio', [eventController::class,  'portfolio']);
+Route::get('/portfolio', [projectController::class,  'portfolio']);
 Route::get('/aboutme', [eventController::class, 'aboutme']);
 Route::get('/contact', [eventController::class, 'contact']);
 
