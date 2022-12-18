@@ -13,16 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
-Route::get('/aboutme', function () {
-    return view('aboutme');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
+use App\Http\Controllers\eventController;
+
+Route::get('/', [eventController::class, 'index']);
+Route::get('/portfolio', [eventController::class,  'portfolio']);
+Route::get('/aboutme', [eventController::class, 'aboutme']);
+Route::get('/contact', [eventController::class, 'contact']);
 
