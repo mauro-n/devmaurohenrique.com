@@ -12,4 +12,15 @@ class projectController extends Controller
 
         return view('portfolio', ['projects' => $projects]);
     }
+
+    public function store(Request $request) {
+        $project = new Project;
+        if (!isset($request->public)) {$request->public = 0;};
+        $project->title = $request->title;
+        $project->description = $request->description;
+        $project->tech = $request->tech;
+
+        $project->save();
+        return redirect('/portfolio');
+    }
 }

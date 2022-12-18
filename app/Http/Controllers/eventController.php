@@ -17,4 +17,8 @@ class eventController extends Controller
     public function contact() {
         return view('contact');
     }
+
+    public function admin() {
+        return view('admin');
+    }
 }
