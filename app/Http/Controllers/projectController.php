@@ -10,6 +10,6 @@ class projectController extends Controller
     public function portfolio() {
         $projects = Project::all();
 
-        return view('portfolio');
+        return view('portfolio', ['projects' => $projects]);
     }
 }
