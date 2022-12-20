@@ -17,8 +17,9 @@ use App\Http\Controllers\eventController;
 use App\Http\Controllers\projectController;
 
 Route::get('/', [eventController::class, 'index']);
-Route::get('/portfolio', [projectController::class,  'portfolio']);
-Route::post('/portfolio', [projectController::class,  'store']);
+Route::get('/portfolio', [projectController::class, 'project']);
+Route::get('/portfolio/add', [projectController::class, 'add']);
+Route::post('/portfolio', [projectController::class, 'store']);
 Route::get('/aboutme', [eventController::class, 'aboutme']);
 Route::get('/contact', [eventController::class, 'contact']);
 Route::get('/admin', [eventController::class, 'admin']);

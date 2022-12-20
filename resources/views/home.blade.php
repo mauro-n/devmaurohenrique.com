@@ -38,7 +38,7 @@
     <div class="row mt-2 text-center">
         <div class="col-md-6">
             <div class="display-6">Overall View</div>
-            <img src="/images/eu.png" class="img-fluid mt-3 mb-4 bg-warning rounded-5" style="width: 250px"
+            <img src="/images/eu.png" class="img-fluid mt-3 mb-4 rounded-5" style="width: 250px"
                 alt="eu-aqui">
             <div class="display-6">Experience with:</div>
             <div class="row m-2 justify-content-center">

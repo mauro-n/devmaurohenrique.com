@@ -1,10 +1,9 @@
 @extends('layout.main')
-@section('title', 'Admin')
+@section('title', 'Add project')
 @section('content')
 
 <div class="container mb-5">
-    <h1>Welcome to the rice fields MF</h1>
-    <h2 class="mt-3">Add a project, fella</h2>
+    <h1>Add a project, fella:</h1>
 
     <form class="col-lg-4 mt-4" method="POST" action="/portfolio">
         @csrf

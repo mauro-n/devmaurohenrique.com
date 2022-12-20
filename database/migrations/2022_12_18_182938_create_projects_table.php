@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('title', 50);
             $table->text('description');
             $table->string('tech');
+            $table->string('link');
+            $table->boolean('public');
             $table->timestamps();
         });
     }
